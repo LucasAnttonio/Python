@@ -1,6 +1,7 @@
-city = input('Em qual cidade você nasceu? ').strip()
+city = input('Em qual cidade você nasceu? ').strip().lower()
 
-if city.lower().find('santo') == -1:
-    print('Sua cidade NÃO tem Santo no nome.')
-else:
+if 'santo' in city:
     print('Sua cidade tem Santo no nome') 
+else:
+    print('Sua cidade NÃO tem Santo no nome.')
+    
