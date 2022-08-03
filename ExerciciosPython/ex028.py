@@ -12,6 +12,6 @@ print('PROCESSANDO...')
 sleep(1)
 
 if ran == num:
-    print(f'PARABÉNS! Você conseguiu me vencer!')
+    print('PARABÉNS! Você conseguiu me vencer!')
 else:
     print(f'GANHEI! Eu penssei no número {ran} e não no {num}!')
